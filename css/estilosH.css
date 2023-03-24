@@ -1,0 +1,194 @@
+:root{
+    --background-header: #1b1f25;
+    --negro:#1b1f25;
+    --azul:#23a6e3;
+}
+
+.imagen{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    text-align: center;
+}
+
+
+img {
+    border: var(--background-header);
+    margin: var(--background-header);
+    border-radius: 30px;
+    border: #1b1f25 10px;
+}
+
+.eslogan {
+    font-size: 50px;
+    text-align: center;
+}
+
+.titulo{
+ font-size: 50px;
+text-align: center;
+margin-top:75px ;
+}
+
+/*creacion de botones para el inicio*/
+
+.cuentos1,.romance1,.terror1,.otros1{
+    background-color: #23a6e3;
+    color: white;
+}  
+
+.cuentos1,.romance1,.terror1,.otros1{
+    padding: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  
+}
+
+/* responsive */
+
+
+@media (max-width: 1000px) {
+    .imagen{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+        text-align: center;
+    }
+
+    .imagen>img {
+        width: 600px;
+        height: 300px;
+    }
+    
+    
+    img {
+        border: var(--background-header);
+        margin: var(--background-header);
+        border-radius: 30px;
+        border: #1b1f25 10px;
+    }
+    
+    .eslogan {
+        font-size: 50px;
+        text-align: center;
+    }
+    
+    .titulo{
+     font-size: 40px;
+    text-align: center;
+    margin-top:75px ;
+    }
+    
+    /*creacion de botones para el inicio*/
+    
+    .cuentos1,.romance1,.terror1,.otros1{
+        background-color: #23a6e3;
+        color: white;
+    }  
+    
+    .cuentos1,.romance1,.terror1,.otros1{
+        padding: 20px;
+        border-radius: 5px;
+        cursor: pointer;
+      
+    }
+}
+
+
+@media (max-width: 650px) {
+    .imagen{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+        text-align: center;
+    }
+
+    .imagen>img {
+        width: 400px;
+        height: 200px;
+    }
+    
+    
+    img {
+        border: var(--background-header);
+        margin: var(--background-header);
+        border-radius: 30px;
+        border: #1b1f25 10px;
+    }
+    
+    .eslogan {
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    .titulo{
+     font-size: 30px;
+    text-align: center;
+    margin-top:75px ;
+    }
+    
+    /*creacion de botones para el inicio*/
+    
+    .cuentos1,.romance1,.terror1,.otros1{
+        background-color: #23a6e3;
+        color: white;
+    }  
+    
+    .cuentos1,.romance1,.terror1,.otros1{
+        padding: 20px;
+        border-radius: 5px;
+        cursor: pointer;
+      
+    }
+}
+
+@media (max-width: 650px) {
+    .imagen{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+        text-align: center;
+    }
+
+    .imagen>img {
+        width: 200px;
+        height: 100px;
+    }
+    
+    
+    img {
+        border: var(--background-header);
+        margin: var(--background-header);
+        border-radius: 30px;
+        border: #1b1f25 10px;
+    }
+    
+    .eslogan {
+        font-size: 15px;
+        text-align: center;
+    }
+    
+    .titulo{
+     font-size: 20px;
+    text-align: center;
+    margin-top:75px ;
+    }
+    
+    /*creacion de botones para el inicio*/
+    
+    .cuentos1,.romance1,.terror1,.otros1{
+        background-color: #23a6e3;
+        color: white;
+    }  
+    
+    .cuentos1,.romance1,.terror1,.otros1{
+        padding: 20px;
+        border-radius: 5px;
+        cursor: pointer;
+      
+    }
+}
